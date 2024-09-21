@@ -1,0 +1,11 @@
+package com.dao;
+
+public class UserDao {
+	static UserDao user = null;
+	
+	public static UserDao getUser() {
+		if(user == null) 
+			user = new UserDao();
+		return user;
+	}
+}

@@ -1,0 +1,14 @@
+package MavenDemo1.com;
+
+import MavenDemo1.com.dao.StudentDao;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+    public static void main( String[] args ) {
+        System.out.println( "Hello World!" );
+       StudentDao sd1 = StudentDao.getStudentDao();
+    }
+}

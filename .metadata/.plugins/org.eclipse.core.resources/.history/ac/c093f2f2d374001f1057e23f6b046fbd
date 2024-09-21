@@ -1,0 +1,14 @@
+package MavenDemo1.com.dao;
+
+public class StudentDao {
+	
+	StudentDao sdao = null;
+	
+	public static StudentDao getStudentDao() {
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("This is student dao");
+	}
+}
